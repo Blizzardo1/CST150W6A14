@@ -33,7 +33,7 @@ namespace CST150W6A14
                 new Polygon("Pentagon", 5, canvasPnl, new Size(150,150), g), // Pentagon
                 new Polygon("Hexagon", 6, canvasPnl, new Size(150,150), g), // Hexagon
                 new Polygon("Octagon", 8, canvasPnl, new Size(150,150), g), // Octagon
-                new Polygon("Dekahexagon", 16, canvasPnl, new Size(150,150), g), // Dekahexagon
+                new Polygon("Hexadecagon", 16, canvasPnl, new Size(150,150), g), // Δεκαεξαγωνο
             });
             shapeLstBx.SelectedIndex = 0;
             dateChk_CheckedChanged(this, EventArgs.Empty);
